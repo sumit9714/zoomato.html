@@ -1,0 +1,70 @@
+#app-contenar{
+    background-color: #fff;
+    height: 450px;
+    width: 950px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+#mobile-image{
+    height: 100%;
+    width: 50%;
+    margin-right: 20px;
+}
+
+#mobile-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+#app-info{
+    width: 50%;
+    margin-left: 20px;
+}
+
+#app-title h2{
+    font-size: 44px;
+    color: #1c1c1c;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+#app-title p{
+    font-size: 16px;
+    color: #363636;
+    font-weight: 400;
+    margin-bottom: 15px;
+    line-height: 32px;
+}
+
+#option{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.option1 input{
+    font-size: 16px;
+    color: #1c1c1c;
+}
+
+#email-input-container{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+button{
+ background-color: #ef4f5f;
+    color: #fff;
+    border-radius: 7px;
+}
+
+#email-input-container input{
+    padding: 13px 12px;
+    outline: none;
+    border-radius: 6px;
+
+}
